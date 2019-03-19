@@ -1,0 +1,108 @@
+.logo-img{
+  width: 30%;
+}
+
+img{
+  max-height: 129px;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+
+.gastro-body {
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.gastro-contenido{
+  background-color: rgb(0, 0, 0) ;
+  opacity: 0.8;
+}
+.gastro-header{
+  color: white;
+}
+
+.hr{
+  background-color: #EAF2F8  ;
+  height: 1px;
+}
+
+.gastro-vl{
+    border-left: 1px solid  rgb(68, 46, 67);
+}
+
+.gastro.btngroup{
+  padding: 0px;
+}
+.gastro-left{
+  background-color:rgb(12, 18, 24);
+
+}
+
+.button{
+  background-color: #A9CCE3 ;
+  font-weight: bold;
+}
+
+#menu-principal a:hover{
+  background-color: white;
+  color:  rgb(2, 3, 3) ;
+}
+
+#favoritos h5{
+  color: #943126 ;
+}
+
+#historial h5{
+  color: #943126 ;
+}
+
+.post-img {
+  width: 100%;
+  max-height: none;
+}
+
+#post-contenido h5{
+  color: #943126 ;
+}
+
+
+.blogpost-footer-author {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex: 1 0 0;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
+}
+
+.blogpost-footer-author .avatar {
+  border-radius: 50%;
+  height: 3.75rem;
+  width: 3.75rem;
+}
+
+.blogpost-footer-author .author {
+  color: #0a0a0a;
+  margin-left: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.blogpost-footer-author .bio {
+  margin-left: 0.75rem;
+  margin-bottom: 0;
+  color: #8a8a8a;
+}
+
+.comentarios {
+  margin-top: 5px;
+}
