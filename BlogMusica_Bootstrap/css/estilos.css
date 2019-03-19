@@ -1,0 +1,293 @@
+
+/* Clase para darle estilos al body */
+.cinema-body {
+  /*background: url(../img/cine2.jpg);*/
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background: radial-gradient(red, black);
+  min-height: 10%;
+  border: none;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.navbar-default ul{
+ 
+}
+
+#menu-principal {
+  background-color: rgb(50, 113, 117);
+  margin-top: 10px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#menu-principal a{
+color: white;
+}
+
+#menu-principal a:hover {
+background-color: white;
+color: rgb(161, 95, 95);
+}
+
+#Contenido{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#Contenido h3{
+  margin-left: 7px;
+  font-weight: bold;
+}
+#Contenido p{
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 16px;
+  text-align: justify;
+}
+#Contenido img{
+  margin-top: 50px;
+
+}
+
+#Listado{
+  margin-top: 20px;
+}
+
+#Listado li:hover{
+  background-color: Gray;
+  color: rgb(237, 248, 132);
+}
+
+.logo-img {
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+}
+.img-Comentarios {
+text-align: right;
+margin-top:-50px;
+}
+
+.row-content{
+  margin-top: 5px;
+}
+
+.row-post{
+  margin-top: -30px;
+}
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+  margin-top: 64px;
+}
+
+/* Clase para darle estilos al jumbotron */
+.jumbotron {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  /*  min-height: 500px; */
+    border-radius: 4px !important;
+    margin-bottom: 0px;
+
+}
+.jumbotron-img {
+  width: 200px;
+  margin-top: -20px;
+}
+.jumbotron-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+.redes-sociales {
+  text-align: right;
+  margin-top:  100px;
+}
+.img-social {
+  width: 40px;
+  height: 40px;
+}
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+  min-height: 35px;
+  background-color: rgba(8, 45, 94, 0.95);
+}
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.movies-row-last {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 425px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Clase para darle estilos a las columnas*/
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+.img-movies {
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+.movie-title {
+  color: #FFFFFF;
+}
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+.row-centered {
+  text-align:center;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+}
+.user_data {
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.input-element {
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  border: none;
+  margin-top: 5px;
+}
+.label-class {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.btn-save {
+  width: 40%;
+  background-color: rgba(8, 45, 94, 0.95);
+  color: #FFFFFF;
+}
+
+.foo{
+  border-top: 3px #FFFFFF;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  h2 {
+    font-size: 22px;
+  }
+  /* Clase para darle estilos al body */
+
+  .cinema-body {
+    /*background: url(../img/cine2.jpg);*/
+    background-color: #610B0B;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* Clase para darle estilos a la barra de navegacion */
+  .navbar-inverse {
+    background: rgb(70, 5, 5);
+    min-height: 10%;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+
+  }
+
+  .titulo-text {
+  font-size: 15px;
+}
+.right-column {
+    display: none;
+  }
+
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 250px;;
+  }
+  .container-fluid{
+      margin-top: 60px;
+    }
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 400px;
+  }
+
+  .jumbotron-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .img-movies {
+   height: 133px;
+   padding: 6px;
+   margin-top: 22px;
+ }
+ #Listado{
+   display:none;
+ }
+ #Buscar{
+   display:none;
+ }
+}
+
+.foo{
+  border-top: 3px #FFFFFF;
+  padding: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
